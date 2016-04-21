@@ -1,5 +1,5 @@
 PKG_NAME := openstackdocstheme
-URL := https://pypi.python.org/packages/source/o/openstackdocstheme/openstackdocstheme-1.2.7.tar.gz
+URL := http://tarballs.openstack.org/openstackdocstheme/openstackdocstheme-1.3.0.tar.gz
 ARCHIVES :=
 
 include ../common/Makefile.common
