@@ -4,7 +4,7 @@
 #
 Name     : openstackdocstheme
 Version  : 1.3.0
-Release  : 5
+Release  : 6
 URL      : http://tarballs.openstack.org/openstackdocstheme/openstackdocstheme-1.3.0.tar.gz
 Source0  : http://tarballs.openstack.org/openstackdocstheme/openstackdocstheme-1.3.0.tar.gz
 Summary  : OpenStack Docs Theme
