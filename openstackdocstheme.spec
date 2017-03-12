@@ -4,35 +4,21 @@
 #
 Name     : openstackdocstheme
 Version  : 1.3.0
-Release  : 6
+Release  : 7
 URL      : http://tarballs.openstack.org/openstackdocstheme/openstackdocstheme-1.3.0.tar.gz
 Source0  : http://tarballs.openstack.org/openstackdocstheme/openstackdocstheme-1.3.0.tar.gz
 Summary  : OpenStack Docs Theme
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: openstackdocstheme-python
-BuildRequires : Jinja2
-BuildRequires : Pygments
-BuildRequires : Sphinx-python
-BuildRequires : docutils-python
-BuildRequires : flake8-python
-BuildRequires : hacking
-BuildRequires : mccabe-python
-BuildRequires : oslosphinx-python
+Requires: pbr
+Requires: requests
+BuildRequires : configparser-python
 BuildRequires : pbr
-BuildRequires : pep8
 BuildRequires : pip
-BuildRequires : pluggy
-BuildRequires : py-python
-BuildRequires : pyflakes-python
-BuildRequires : pytest
 BuildRequires : python-dev
-BuildRequires : pytz-python
-BuildRequires : reno-python
-BuildRequires : requests-python
+BuildRequires : python3-dev
 BuildRequires : setuptools
-BuildRequires : tox
-BuildRequires : virtualenv
 
 %description
 OpenStack docs.openstack.org Sphinx Theme
@@ -41,7 +27,6 @@ OpenStack docs.openstack.org Sphinx Theme
 %package python
 Summary: python components for the openstackdocstheme package.
 Group: Default
-Requires: requests-python
 
 %description python
 python components for the openstackdocstheme package.
@@ -51,16 +36,16 @@ python components for the openstackdocstheme package.
 %setup -q -n openstackdocstheme-1.3.0
 
 %build
+export LANG=C
+export SOURCE_DATE_EPOCH=1489334634
 python2 setup.py build -b py2
+python3 setup.py build -b py3
 
-%check
-export http_proxy=http://127.0.0.1:9/
-export https_proxy=http://127.0.0.1:9/
-export no_proxy=localhost,127.0.0.1,0.0.0.0
-PYTHONPATH=%{buildroot}/usr/lib/python2.7/site-packages python2 setup.py test
 %install
+export SOURCE_DATE_EPOCH=1489334634
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot}
+python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 
 %files
 %defattr(-,root,root,-)
