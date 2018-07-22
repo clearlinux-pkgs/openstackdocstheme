@@ -1,10 +1,259 @@
 CHANGES
 =======
 
+1.21.0
+------
+
+* Use metadata summary instead name for doc title
+* Relocate bug\_tag in logABug generated URL
+
+1.20.1
+------
+
+* Handle possible exceptions when fetching version numbers
+
+1.20.0
+------
+
+* Updated from global requirements
+* Configure additional properties
+* Configure project name, version, release
+* trivial: Remove cruft from 'conf.py'
+* trivial: Use the 'get\_html\_theme\_path' function
+* Move code out of '\_\_init\_\_'
+* Mark some functions as private
+
+1.19.0
+------
+
+* trivial: Generate '{project}-doc' roles, not '{project}-doc-link'
+* Avoid text overflow in toc
+* Fix typo in logger.warning() call
+* automatically create project doc-link roles
+* Remove name from project stanza
+* Updated from global requirements
+* Update the description of "giturl"
+
+1.18.1
+------
+
+* Fix giturl parsing
+
+1.18.0
+------
+
+* Replace the http links with the right ones in docs
+* Attempt to guess valid Git URLs
+* Revert "Fix the incorrect git source url"
+* trivial: Remove use of 'Application.{warn,info}'
+* Fix the incorrect git source url
+* Do not print the release if empty
+* Adds -p option in mkdir for buildpdf tox env
+* bindep: Add dependencies for PDFs on Fedora
+* gitignore: Ignore more files
+* Updated from global requirements
+* Remove -U from pip install
+* Avoid tox\_install.sh for constraints support
+* Remove setting of version/release from releasenotes
+* Add zuulv3 native job
+* Adds Turkish landing page to sidebartoc\_menu
+* No red with double backticks markup
+
+1.17.0
+------
+
+* Updated from global requirements
+* Fix link to openstackdays
+* [www] Fix link to COA
+* Add support for sphinx sidebar role
+* Remove stray characters from demo
+* Update the configuration of generating a PDF document
+* Updated from global requirements
+* Sync language list with openstack-manuals repo
+* Bring back local search
+* Cleanup setup.cfg
+* Updated from global requirements
+* Break cycle dependency with reno
+* Updated from global requirements
+* Break cycle dependency with os-api-ref
+* Remove navigation.html
+* Update links in README
+* Updated from global requirements
+* Documents how to set conf.py for PDF generation
+* show release series names not version tags
+* Link to latest version
+
+1.16.1
+------
+
+* fix alignment of toc tree items in sidebar
+
+1.16.0
+------
+
+* Fix a logic issue in the JS
+* move the localtoc for the page into the sidebar
+* Serve minified CSS
+
+1.15.0
+------
+
+* Remove rules linked to a "Status" ID
+* Update 2 documentation URLs according to doc migration
+* Move from 3rd party fonts to native font stack
+* Fix Added / Changed / Deprecated notices
+* Standardise header styling
+* Add spaces in demo for deprecation notices
+* remove smooth scrolling
+
+1.14.0
+------
+
+* add a comment to all output HTML pages showing the input file
+* CSS: Add margin-left to <dd>
+* Add support for versionadded and deprecated
+* show the current project name and version in navigation link
+* Declare parallel reading safe
+
+1.13.0
+------
+
+* Strip tags from navigation prev, next titles
+* Cleanup conf.py
+* Allow using openstackdocstheme without git installed
+* Fix sorting of git versions
+* Add note for show\_other\_versions
+* Do not display title string of page local TOC
+
+1.12.0
+------
+
+* Increase admonition.important contrast
+* Adds docs for release versions dropdown menu
+* Adds list of versions in the "Updated" bar
+* Update docs
+* Change name of checkbuild testenv to buildpdf for clarity
+* Require bug\_project setting
+* Adding octavia api-ref
+* Minimal support for storyboard
+* move documentation from readme to sphinx tree
+* Updated from global requirements
+* Updates "Contents" to "Project home page" to better match existing
+* Working on integrating options from oslosphinx theme
+
+1.11.0
+------
+
+* switch release notes build to use openstackdocs instead of oslosphinx
+* automate some of the extension setup
+* Enable some off-by-default checks
+
+1.10.0
+------
+
+* Update Site Search
+* Updated from global requirements
+* PDF build support >= Sphinx 1.6.1
+* README: Update configuration of openstackdocstheme
+
+1.9.0
+-----
+
+* Updated from global requirements
+* Fix links in drop-down menu under Join; add https
+
+1.8.0
+-----
+
+* Use new OpenStack logo and header
+* Updated from global requirements
+
+1.7.0
+-----
+
+* Clarify search title
+* Fix search.html page script errors
+* Add alignment styling for figures and images
+* PDF support for sample document with font
+* Add tox env for PDF building
+* Update css markups for newer Sphinx
+* Adds LaTeX style file for building PDF documents
+* Add warning-is-error
+* Updated from global requirements
+* Updated from global requirements
+* Update hacking to current version
+* Adjust 'docs-toc a' display value
+* Remove getJSON function and doc-characters file
+* Update Launchpad info
+* Updated from global requirements
+* Use https instead of http for git.openstack.org
+* Update bootstrap and jquery files
+* Remove duplicate search field from the left sidebar
+* Add note in README about Python 3 changes
+* Fix missing role\_id
+
+1.6.1
+-----
+
+* Includes checklist when filing a bug for osmanuals
+* Add trove classifiers for Python
+
+1.6.0
+-----
+
+* Add Constraints support
+* Show team and repo badges on README
+* Removed minimized files
+* Allow to build docs without git command
+* [www] update page header links
+* Updated from global requirements
+* Updated from global requirements
+* Enable release notes translation
+* Update test API Ref
+* Fix typo: remove redundant 'the'
+* Updated from global requirements
+* Updated from global requirements
+* Update requirements
+* Fix tox setup
+* Install required packages
+* Updated from global requirements
+
+1.5.0
+-----
+
+* API References dropdown menu
+* Allow automatic toc to be disabled
+
+1.4.0
+-----
+
+* Update Release Notes
+* Adds release notes items for next release
+* Make \`\`something\`\` more highlighted
+* Allow the bug title to be customisable
+* Broken Link
+* Updated from global requirements
+* Increase indent level of doc top contents
+* Updated from global requirements
+* Actually include custom JS files
+* Release note for new sidebar feature
+* Use HTTPS for external deps
+* Set side bar content to be configurable
+* Create empty folder for custom font files
+* Fix text font-family of admonitions
+* Allow for inclusion of custom JS files
+* Updated from global requirements
+* Change summit video URL
+* Updated from global requirements
+* Update the Administrator Guide link
+* Clarify uses for this theme
+* Allow cssfiles added by sphinx extensions
+
 1.3.0
 -----
 
 * Make theme version independent
+* Add appropriate order list styles
 * Shorted margin and padding for top page menu
 * Use pep8 instead of linters
 * Fix a spell typos
@@ -188,8 +437,8 @@ CHANGES
 * fix path to jquery
 * fix rst syntax
 * Use pathto() to compute relative paths to static files
-* Rename _static to static
-* Clean up get_html_theme_path
+* Rename \_static to static
+* Clean up get\_html\_theme\_path
 * Don't force-inject the theme
 * Move theme files into correct formation
 * Update flake8 commands
