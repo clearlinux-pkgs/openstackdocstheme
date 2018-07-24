@@ -4,7 +4,7 @@
 #
 Name     : openstackdocstheme
 Version  : 1.21.0
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/aa/b0/e83a760785876d594b7c2e437df57e07d20a87d383bc4fedeb1791f67104/openstackdocstheme-1.21.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/aa/b0/e83a760785876d594b7c2e437df57e07d20a87d383bc4fedeb1791f67104/openstackdocstheme-1.21.0.tar.gz
 Summary  : OpenStack Docs Theme
@@ -13,9 +13,11 @@ License  : Apache-2.0
 Requires: openstackdocstheme-python3
 Requires: openstackdocstheme-license
 Requires: openstackdocstheme-python
+Requires: dulwich
 Requires: pbr
 Requires: reno
 BuildRequires : buildreq-distutils3
+BuildRequires : dulwich
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : python3-dev
@@ -59,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532402710
+export SOURCE_DATE_EPOCH=1532452989
 python3 setup.py build -b py3
 
 %install
