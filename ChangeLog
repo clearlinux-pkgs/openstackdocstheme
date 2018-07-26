@@ -1,6 +1,17 @@
 CHANGES
 =======
 
+1.21.1
+------
+
+* Make emphasize-lines more highlighted
+* Updated Search widget
+* fix tox python3 overrides
+* add the series name to the template context
+* always look for the .gitreview file in root of repo
+* Strip tags from titles in bugTitle and meta
+* Check RST as part of linting
+
 1.21.0
 ------
 
