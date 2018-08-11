@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+1.21.2
+------
+
+* Make bg color for highlighted text less bright
+* ignore files created during packaging
+
 1.21.1
 ------
 
