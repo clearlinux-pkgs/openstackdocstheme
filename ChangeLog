@@ -1,11 +1,16 @@
 CHANGES
 =======
 
+1.22.0
+------
+
+
 1.21.2
 ------
 
 * Make bg color for highlighted text less bright
 * ignore files created during packaging
+* Added deprecation badge
 
 1.21.1
 ------
