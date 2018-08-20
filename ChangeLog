@@ -1,6 +1,15 @@
 CHANGES
 =======
 
+1.23.0
+------
+
+* Fix build jobs
+* Do not display "latest" badge if repo is not versioned
+* Use sphinx-build everywhere
+* switch documentation job to new PTI
+* import zuul job settings from project-config
+
 1.22.0
 ------
 
