@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+1.23.1
+------
+
+* Handle StoryBoard project groups
+* Do not show badge for master only repos
+
 1.23.0
 ------
 
