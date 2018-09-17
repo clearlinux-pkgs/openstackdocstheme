@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+1.24.0
+------
+
+* Fix the incorrect storyboard url
+* Fix project-navigator link
+
 1.23.2
 ------
 
