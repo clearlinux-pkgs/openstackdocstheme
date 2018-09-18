@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+1.24.1
+------
+
+* log details of html context
+* pass useStoryboard to logABug
+* ensure repository\_name is always set
+
 1.24.0
 ------
 
