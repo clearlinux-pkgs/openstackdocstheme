@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+1.25.0
+------
+
+* Add an option to disable global TOC section
+* Make root title customizable
+
 1.24.1
 ------
 
