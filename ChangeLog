@@ -1,6 +1,11 @@
 CHANGES
 =======
 
+1.25.1
+------
+
+* Fix regressions introduced in 1.25.0
+
 1.25.0
 ------
 
