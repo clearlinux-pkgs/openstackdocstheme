@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+1.26.0
+------
+
+* Make a bare-bones starlingxdocs theme
+* Add scripts to the head section
+* Remove example of deprecated app.info
+* Add starlingxdocs theme support
+
 1.25.1
 ------
 
@@ -11,6 +19,7 @@ CHANGES
 
 * Add an option to disable global TOC section
 * Make root title customizable
+* Import build-openstack-api-ref
 
 1.24.1
 ------
