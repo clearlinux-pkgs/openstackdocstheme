@@ -1,6 +1,17 @@
 CHANGES
 =======
 
+1.27.1
+------
+
+* The theme is openstackdocs
+
+1.27.0
+------
+
+* Readd get\_openstack\_logo\_path
+* Set default paths for OpenStack
+
 1.26.0
 ------
 
