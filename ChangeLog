@@ -1,6 +1,16 @@
 CHANGES
 =======
 
+1.28.0
+------
+
+* Change openstack-dev to openstack-discuss
+* use git modification timestamps as last-updated time for each page
+* Import tools for building translated documents
+* Fix typo
+* Remove setup.py check from pep8 job
+* StarlingX nav fix to remove "Software Update" links
+
 1.27.1
 ------
 
