@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+1.28.1
+------
+
+* Catch OSError when trying to get the last\_update from git
+* Translations: Handle directories
+* Update hacking version
+
 1.28.0
 ------
 
