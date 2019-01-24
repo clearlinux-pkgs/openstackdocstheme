@@ -1,10 +1,15 @@
 CHANGES
 =======
 
+1.29.0
+------
+
+
 1.28.1
 ------
 
 * Catch OSError when trying to get the last\_update from git
+* Add options for sphinx-build -W in docstheme-build-translated.sh
 * Translations: Handle directories
 * Update hacking version
 
