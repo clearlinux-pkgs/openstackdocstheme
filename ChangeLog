@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+1.29.1
+------
+
+* Fix wrong variable in build-translated
+* Exit trap cleanup in docstheme-build-translated.sh
+
 1.29.0
 ------
 
