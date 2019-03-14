@@ -1,6 +1,15 @@
 CHANGES
 =======
 
+1.29.2
+------
+
+* Move bootstrap modifications to 'combined.css'
+* css: Don't use bold text in titles
+* css: Use ellipsis for long titles in sidebar
+* Silence! A sequel
+* Silence!
+
 1.29.1
 ------
 
