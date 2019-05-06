@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+1.29.3
+------
+
+* Update for OpenDev change
+* Prevent InvocationError on non-existent files
+* OpenDev Migration Patch
+* Add missing fonts for pdf build in Sphinx 2.0
+
 1.29.2
 ------
 
