@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+1.30.0
+------
+
+* Add table styling
+* Allow to override build date with SOURCE\_DATE\_EPOCH
+* Reference OpenStack logo in openstackdocstheme
+
 1.29.3
 ------
 
