@@ -1,6 +1,28 @@
 CHANGES
 =======
 
+1.31.0
+------
+
+* Update API sidebar
+* Update api-ref location
+* Make 'docstheme-build-pdf' executable
+* Add 'docstheme-build-pdf' script
+* setup.cfg: Remove remanents of 'build\_sphinx' usage
+* Add missing 'role="main"' attribute
+* css: General cleanup
+* js: Fix some comments
+* js: Remove dead or unused JS
+* Add reno for recent CSS cleanups
+* Note External Link Helper is not compatible with project only master brach
+* Remove a heap of dead CSS rules
+* Removed 'combined.css' for 'starlingxdocs' theme
+* css: Add symlinks for openstack logos
+* css: Move bootstrap modifications to 'combined.css' (StarlingX)
+* css: Use ellipsis for long titles in sidebar (StarlingX)
+* css: Use https links (StarlingX)
+* css: Don't use bold text in titles (StarlingX)
+
 1.30.0
 ------
 
