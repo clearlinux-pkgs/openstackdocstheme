@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+1.31.2
+------
+
+* Move version dropdown to title line
+* Improve docs title style
+* Fetch generated PDF files correctly
+* Catch any exception when trying to call "git"
+
 1.31.1
 ------
 
