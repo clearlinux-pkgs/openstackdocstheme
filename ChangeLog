@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+2.0.0
+-----
+
+* Fix broken URLs
+* [ussuri][goal] Drop python 2.7 support and testing
+
 1.31.2
 ------
 
