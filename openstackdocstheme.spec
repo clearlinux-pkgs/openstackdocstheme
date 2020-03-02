@@ -4,7 +4,7 @@
 #
 Name     : openstackdocstheme
 Version  : 2.0.0
-Release  : 40
+Release  : 41
 URL      : https://files.pythonhosted.org/packages/3b/79/03d1148393b29eab5f14fade445e49297244fb2f99ae640eebd15a2aef0f/openstackdocstheme-2.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3b/79/03d1148393b29eab5f14fade445e49297244fb2f99ae640eebd15a2aef0f/openstackdocstheme-2.0.0.tar.gz
 Summary  : OpenStack Docs Theme
@@ -24,8 +24,46 @@ BuildRequires : pbr
 ========================
 Team and repository tags
 ========================
+
 .. image:: https://governance.openstack.org/tc/badges/openstackdocstheme.svg
-:target: https://governance.openstack.org/tc/reference/tags/index.html
+    :target: https://governance.openstack.org/tc/reference/tags/index.html
+
+.. Change things from this point on
+
+OpenStack Foundation Sphinx Themes
+==================================
+
+Theme and extension support for Sphinx documentation that is published by
+OpenStack Foundation projects.
+
+OpenStack docs.openstack.org Sphinx Theme
+-----------------------------------------
+
+Theme support for Sphinx documentation that is published to
+docs.openstack.org and developer.openstack.org.
+
+Intended for use by OpenStack `projects governed by the Technical Committee`_.
+
+.. _`projects governed by the Technical Committee`: https://governance.openstack.org/tc/reference/projects/index.html
+
+StarlingX docs.starlingx.io Sphinx Theme
+-----------------------------------------
+
+Theme support for Sphinx documentation that is published to
+docs.starlingx.io.
+
+Intended for use by StarlingX `projects governed by the Technical Steering Committee`_.
+
+.. _`projects governed by the Technical Steering Committee`: https://docs.starlingx.io/governance/reference/projects/index.html
+
+References
+----------
+
+* Free software: Apache License, Version 2.0
+* Documentation: https://docs.openstack.org/openstackdocstheme/latest/
+* Release notes: https://docs.openstack.org/releasenotes/openstackdocstheme/
+* Source: https://opendev.org/openstack/openstackdocstheme
+* Bugs: https://launchpad.net/openstack-doc-tools
 
 %package bin
 Summary: bin components for the openstackdocstheme package.
@@ -57,6 +95,7 @@ python components for the openstackdocstheme package.
 Summary: python3 components for the openstackdocstheme package.
 Group: Default
 Requires: python3-core
+Provides: pypi(openstackdocstheme)
 
 %description python3
 python3 components for the openstackdocstheme package.
@@ -71,7 +110,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582323891
+export SOURCE_DATE_EPOCH=1583192644
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
