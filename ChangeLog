@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+2.0.1
+-----
+
+* Update several links
+* Do not set html\_last\_updated\_fmt
+
 2.0.0
 -----
 
