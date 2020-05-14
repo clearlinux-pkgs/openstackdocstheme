@@ -1,6 +1,22 @@
 CHANGES
 =======
 
+2.1.1
+-----
+
+* Restore configuration of 'latex\_engine'
+
+2.1.0
+-----
+
+* trivial: Add whitespace
+* Add package prefixes for all config options
+* css: Namespace Pygments stylesheet
+* Merge, rather than overwrite, LaTeX settings
+* Add 'openstackdocs\_auto\_name' config option
+* Add 'openstackdocs\_auto\_version' config option, path checking
+* Mark sphinx extensions thread safe
+
 2.0.2
 -----
 
