@@ -1,6 +1,22 @@
 CHANGES
 =======
 
+2.2.0
+-----
+
+* Add link to PDF file
+* Cleanup bindep
+* Enable parallel building
+* Use consistent logging
+* trivial: Remove leftover Python 2 code
+* Provide extension version
+
+2.1.2
+-----
+
+* Update docstheme
+* Use xelatex as latex\_engine
+
 2.1.1
 -----
 
@@ -11,6 +27,7 @@ CHANGES
 
 * trivial: Add whitespace
 * Add package prefixes for all config options
+* Remove vendored 'native' Pygments theme
 * css: Namespace Pygments stylesheet
 * Merge, rather than overwrite, LaTeX settings
 * Add 'openstackdocs\_auto\_name' config option
