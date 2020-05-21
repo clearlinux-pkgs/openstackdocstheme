@@ -1,5 +1,5 @@
 PKG_NAME := openstackdocstheme
-URL = https://files.pythonhosted.org/packages/16/c0/63ab9fb2f9f67e48e9a691d7b4271fbdcfd1149a5fc5bf9a5c64830b77d6/openstackdocstheme-2.2.0.tar.gz
+URL = https://files.pythonhosted.org/packages/42/1e/527869b8bfc82ddbadf4c36fefdfc438ed313107a9c96b282c88827323a7/openstackdocstheme-2.2.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

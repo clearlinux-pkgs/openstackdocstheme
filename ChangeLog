@@ -1,11 +1,18 @@
 CHANGES
 =======
 
+2.2.1
+-----
+
+* Show version in PDFs
+* Fix auto\_name logic
+
 2.2.0
 -----
 
 * Add link to PDF file
 * Cleanup bindep
+* Add cross-tests for nova
 * Enable parallel building
 * Use consistent logging
 * trivial: Remove leftover Python 2 code
