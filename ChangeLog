@@ -1,10 +1,18 @@
 CHANGES
 =======
 
+2.2.2
+-----
+
+* Lower logging level of pdf-related logs
+* Ignore 'last\_updated' for auto-generated pages
+* Fix hacking min version to 3.0.1
+
 2.2.1
 -----
 
 * Show version in PDFs
+* Add octaviaclient cross job
 * Fix auto\_name logic
 
 2.2.0
