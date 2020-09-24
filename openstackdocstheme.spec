@@ -4,7 +4,7 @@
 #
 Name     : openstackdocstheme
 Version  : 2.2.5
-Release  : 51
+Release  : 52
 URL      : https://files.pythonhosted.org/packages/fc/17/d6e60a755d2111828b1d395daf83f3f008ba0c935e5977cda203c348dc1e/openstackdocstheme-2.2.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/fc/17/d6e60a755d2111828b1d395daf83f3f008ba0c935e5977cda203c348dc1e/openstackdocstheme-2.2.5.tar.gz
 Summary  : OpenStack Docs Theme
